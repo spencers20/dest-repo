@@ -23,7 +23,7 @@ const mediaContent: MediaItem[] = [
     thumbnail:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Full%20Interview-fEcqDHjh6KERaiP2L5UgNnwK4ch4wY.png",
     icon: PlayCircle,
-    embedUrl: "__FullInterview__",
+    embedUrl: "https://drive.google.com/file/d/1fVm8M87cIeoxD3rm6_XXk0_eRUuFP0MX/preview",
     description: "Complete interview with Pedro Sostre III discussing automation and AI",
   },
   {
@@ -32,7 +32,7 @@ const mediaContent: MediaItem[] = [
     thumbnail:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Amazing%20Song-Dcsp7hrncqoSnev0LlnXA4Vn5pJSYX.png",
     icon: Music,
-    embedUrl: "__Amazingsong__",
+    embedUrl: "https://drive.google.com/file/d/1Ia0AzJgdo2T9z4DIXhSXcTVqzTpt9FUP/preview",
     description: "Pedro's magical musical creation",
   },
   {
@@ -41,7 +41,7 @@ const mediaContent: MediaItem[] = [
     thumbnail:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Introduction-Va6zz71NB0N919I05eHJNSfPFPW3VV.png",
     icon: Mic,
-    embedUrl: "__SpeakerIntroduction__",
+    embedUrl: "https://drive.google.com/file/d/1fRWtQTUkQW-Ityiml_NjclYy3R_S0I6-/preview",
     description: "Introduction to Pedro Sostre III",
   },  
   {
@@ -49,12 +49,12 @@ const mediaContent: MediaItem[] = [
     type: "videolist",
     thumbnail: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Highlights-iF52Y7jD88Ky7CxHNpyoFoy2sT9W2C.png",
     icon: Video,
-    embedUrl:"__InterviewHighlights__",
+    embedUrl:https://drive.google.com/file/d/1JJnrkk50YJ9T_UqAKKkJPCYYn4PU-gxR/preview,https://drive.google.com/file/d/1UB0A1z_mhPwNC7mW_uWOfincfv_hrTaN/preview,https://drive.google.com/file/d/1Hvs4sUr-deNli1RGKrtz9CMLNb3ihHNY/preview,https://drive.google.com/file/d/1JWwXt8uX21h5w9WJuhQT5thGgi_tbwAL/preview,https://drive.google.com/file/d/1OMx_cTfA-WcNReO_H3q0Ew9exehkVBC0/preview,https://drive.google.com/file/d/1XZHJ4zo2TkGqY1BpsYRzGnak92jWpUtK/preview,https://drive.google.com/file/d/1_Wwsv-wPnnFAmfd0YC8mI-lycPiYUgdx/preview,https://drive.google.com/file/d/1pimC3KTc4stlMIyiew4eOI7bzlOn-K5v/preview,https://drive.google.com/file/d/1XichNWqDNdzEq1feUk9Og55-0vtH-ylP/preview,https://drive.google.com/file/d/121aVjJ5hQuPZt0jilSBoCQb4DDtN6pyF/preview,https://drive.google.com/file/d/1Ew1bWroq34oDyaCapGG4Z0bukIzXNTYw/preview,https://drive.google.com/file/d/1IfMEk7MePjtS4M_9MUKg37aQIybYa1wy/preview,https://drive.google.com/file/d/1AyHy-FBwg6t_CdaTRpmTqg1zszok_vm3/preview,https://drive.google.com/file/d/1IUR-Ns0PF03sqa8SCb-IFaZt09IGginY/preview,https://drive.google.com/file/d/1kQz9NnB2RkFo0lxgQwnWApNhBBUN8bdx/preview,https://drive.google.com/file/d/1ebZ5ZZxFRL0nSH6GIWFfWOR6KgzQiyoO/preview,https://drive.google.com/file/d/1DGdzXKRRuvNV-xE3WdxGhUbPUA_wOdfH/preview,https://drive.google.com/file/d/195Rn8UomG8h-rSy-SEOfWQ_PCLRETUT4/preview,https://drive.google.com/file/d/1HALgprIXwJ0fCqVkIe2GGYm2ONKClkrs/preview,https://drive.google.com/file/d/1VmBJnSP1qV1oIwml_fKUQ6vdjinsAb7k/preview,https://drive.google.com/file/d/1sOXzOCG2Nl6wvRcvMVACmPaN12TnN_QO/preview,https://drive.google.com/file/d/1AslK7zGXEk-YoTjSCrVTjZ5KpnDYyw0Z/preview,https://drive.google.com/file/d/1QKv-WWMiInxeCcHI_ChNPIleJFV0jcL7/preview,https://drive.google.com/file/d/10LAHnYFKRkooQuHyCDCu47nOhPWSUzK8/preview,https://drive.google.com/file/d/1USyQ7gGtJM5x8Tk0657ZTvZo6KWXIKXY/preview,https://drive.google.com/file/d/1B5y0uXZw0ImCfSvgHNbLunLEoVk78YsX/preview,
     description: "Key moments and insights from the interview",
   },
 ]
 
-const workflows = "__AutomationWorkflows__"
+const workflows = [object Object],[object Object],[object Object],[object Object],[object Object]
 
 const highlightTitles = [
   "Automation Philosophy and Business Impact",
@@ -139,8 +139,8 @@ export default function HomePage() {
     return () => document.removeEventListener("click", handleLinkedInShare as EventListener)
   }, [])
 
-  const profilePic = "__profilepic__";
-  const name = "__name__";
+  const profilePic = "https://drive.google.com/file/d/185VyTVCqAaMrvAgj6DVDlL_tpL-4fjzq/preview";
+  const name = "Corie Meredith";
   // const bio = "__bio__";
   // const interviewVideo = "__interviewvedio__";
 
