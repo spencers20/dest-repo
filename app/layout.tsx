@@ -6,8 +6,9 @@ import Script from "next/script"
 
 const inter = Inter({ subsets: ["latin"] })
 
+
 export const metadata: Metadata = {
-  title: "Magic Pedro Sostre III",
+  title: "__name__",
   description: "Get instant help with our Magical Assistant",
   generator: "v0.dev",
 }
@@ -23,7 +24,7 @@ export default function RootLayout({
         {/* Favicon */}
         <link rel="icon" href="/favicon.png" type="image/png" />
         {/* Title */}
-        <title>Magic Pedro Sostre III</title>
+        <title>__name__</title>
         {/* Load Montserrat Font */}
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet" />
         {/* Include n8n Chat Widget Styles */}
@@ -83,7 +84,7 @@ export default function RootLayout({
               try {
                 import('https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js').then(({ createChat }) => {
                   createChat({
-                    webhookUrl: 'https://automations.manymangoes.com.au/webhook/f2214341-bbde-4593-9bef-031f54a38ce0/chat',
+                    webhookUrl: '__chatbotwebhook__',
                     target: '#n8n-chat',
                     mode: 'window',
                     showWelcomeScreen: false,
